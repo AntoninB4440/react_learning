@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Inter", sans-serif;
+}
+
+header {
+    background-color: #F55A5A;
+    height: 55px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.header-logo {
+    width: 24px;
+}
+
+header > h1 {
+    font-size: 0.9rem;
+    font-weight: 500;
+    
+}
+
+.container {
+    margin: 45px 40px;
+}
+
+article.entry-container {
+    display: flex;
+}
+
+article.entry-container .entry-marker {
+    width: 7px;
+    margin-right: 4px;
+}
+
+article.entry-container .entry-image-container {
+    width: 125px;
+    height: 168px;
+    overflow: hidden;
+    border-radius: 8px;
+    flex-shrink: 0;
+    margin-right: 1.2rem;
+}
+
+article.entry-container .entry-image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.entry-info-container span.entry-country {
+    font-size: 0.64rem;
+    text-transform: uppercase;
+    margin-right: 12px;
+    letter-spacing: 2px;
+}
+
+.entry-info-container a {
+    font-size: 0.64rem;
+    color: #2B283A;
+}
+
+.entry-info-container a:visited {
+    color: #918E9B;
+}
+
+.entry-info-container h2.entry-title {
+    margin-top: 7px;
+    margin-bottom: 17px;
+}
+
+.entry-info-container p.entry-dates {
+    margin-bottom: 9px;
+    font-weight: 700;
+    font-size: 0.64rem;
+}
+
+.entry-info-container p.entry-description {
+    font-size: 0.64rem;
+    line-height: 1.5;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical; 
+}

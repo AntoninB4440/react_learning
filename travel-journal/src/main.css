@@ -33,6 +33,7 @@ header > h1 {
 
 article.entry-container {
     display: flex;
+    margin-bottom: 40px;
 }
 
 article.entry-container .entry-marker {

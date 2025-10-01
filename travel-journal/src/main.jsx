@@ -8,12 +8,8 @@ const root = createRoot(document.getElementById("root"));
 const travels = data.map((travel) => {
     return <Entry
             key={travel.id}
-            img={travel.img}
-            title={travel.title}
-            country={travel.country}
-            googleMapsLink={travel.googleMapsLink}
-            dates={travel.dates}
-            description={travel.text}
+            //entry={travel}
+            {...travel}
         />
 })
 

@@ -12,7 +12,7 @@ export default function Entry(props){
                 <a target="_blank" href={props.googleMapsLink}>View on Google Maps</a>
                 <h2 className="entry-title">{props.title}</h2>
                 <p className="entry-dates">{props.dates}</p>
-                <p className="entry-description">{props.description}</p>
+                <p className="entry-description">{props.text}</p>
             </div>
         </article>
     )
